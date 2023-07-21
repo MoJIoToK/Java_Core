@@ -1,6 +1,6 @@
 ### Java template
 # Compiled class file
-*.class
+#*.class
 
 # Log file
 *.log
@@ -153,11 +153,14 @@ $RECYCLE.BIN/
 !/.idea/
 
 !/Java_Core/.idea/
-!/Java_Core/mydocumentation/script-dir/
 !/Java_Core/out/production/Java_Core/
-!/Java_Core/Java_Core.iml
 .idea
 !/library/
 !/LibraryJava/
 !/Java_Core.iml
 !/Безымянный.png
+!/library/
+!/Java_Core/Java_Core.iml
+!/Java_Core/mydocumentation/script-dir
+!/Java_Core/mydocumentation/script-dir/
+!/Java_Core/Java_Core.iml
