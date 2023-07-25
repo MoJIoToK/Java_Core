@@ -164,3 +164,6 @@ $RECYCLE.BIN/
 !/Java_Core/mydocumentation/script-dir
 !/Java_Core/mydocumentation/script-dir/
 !/Java_Core/Java_Core.iml
+*/target
+*/test
+*/resources
