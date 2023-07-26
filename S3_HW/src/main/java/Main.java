@@ -13,7 +13,6 @@ public class Main {
         employees.add(new Employee("Egor", "Olegovich", "Shmatko", "Head of Security", "4", 150000, 1983));
         employees.add(new Employee("Sergey", "Pavlovich", "Korolev", "Scientist", "0001", 9999999, 1966));
 
-
 //        getAllInfo(employees);
 //
 //        //Employee.increaser(employees, 30, 5000);
@@ -27,7 +26,6 @@ public class Main {
 //
 //        float avgSalary = getAverageSalary(employees);
 //        System.out.printf("Средная зарплата в компании: %.1f\n", avgSalary);
-
 
         // 2 Task
         getAllInfo(employees);
@@ -75,6 +73,5 @@ public class Main {
             System.out.println(employee);
         }
     }
-
 
 }
