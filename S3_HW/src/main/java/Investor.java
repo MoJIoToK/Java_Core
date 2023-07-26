@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -12,8 +13,17 @@ import lombok.Setter;
 @Setter
 @Getter
 public class Investor extends Employee{
-    public Investor(String name, String midName, String surName, String position, String phone, int salary, int age) {
+    public Investor(String name, String midName, String surName, String position,
+                    String phone, int salary, int age) {
         super(name, midName, surName, position, phone, salary, age);
+    }
+
+    public static void increaser(ArrayList<Employee> employees, int increase){
+        for (Employee employee : employees) {
+            if (!(employee instanceof Investor)) {
+                employee.increaseSalary(increase);
+            }
+        }
     }
 
 }

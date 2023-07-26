@@ -81,13 +81,13 @@ public class Employee {
         this.salary = salary;
     }
 
-    public static void increaser(ArrayList<Employee> employees, int age, int increase){
-        for (Employee employee : employees) {
-            if (employee.getAge() > age) {
-                employee.increaseSalary(increase);
-            }
-        }
-    }
+//    public static void increaser(ArrayList<Employee> employees, int age, int increase){
+//        for (Employee employee : employees) {
+//            if (employee.getAge() > age) {
+//                employee.increaseSalary(increase);
+//            }
+//        }
+//    }
 
     public void increaseSalary(int amount){
         this.salary += amount;
